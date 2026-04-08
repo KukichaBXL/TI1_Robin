@@ -117,6 +117,7 @@ body {
 }
 
 .contenu-page {
+  width: 90%;
   background-color: lightgrey;
   border-radius: 10px;
   margin: 20px;
@@ -151,6 +152,10 @@ body {
 }
 
 /* IMAGES */
+
+img {
+  margin-top: 10px;
+}
 
 .img-centree {
   text-align: center;
@@ -373,7 +378,7 @@ body {
   }
 
   .navigation {
-    min-width: 150px;
+    min-width: 250px;
     border: 2px solid black;
     border-radius: 10px;
     overflow: hidden;
