@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madrid - Liens pratique</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+
+    <?php
+    require_once '../view/inc/entete.php';
+    ?>
+
+    <div class="conteneur">
+
+        <?php
+        require '../view/inc/menu.php';
+        ?>
+
 <div class="contenu-page">
 
     <h2 class="titre-page">Liens pour rejoindre les autres capitales</h2>
@@ -9,24 +30,31 @@
     <p>Découvrez les sites dédiés aux autres capitales européennes :</p>
     </div>
     <ul class="link-liste">
-        <li><a >Berlin</a></li>
-        <li><a >Vienne</a></li>
-        <li><a >Paris</a></li>
-        <li><a >Madrid</a></li>
-        <li><a >Rome</a></li>
-        <li><a >Londres</a></li>
-        <li><a >Lisbonne</a></li>
-        <li><a >Prague</a></li>
-        <li><a >Amsterdam</a></li>
-        <li><a >Copenhague</a></li>
-        <li><a >Dublin</a></li>
-        <li><a >Madrid</a></li>
-        <li><a >Sofia</a></li>
-        <li><a >Varsovie</a></li>
-        <li><a >Helsinki</a></li>
-        <li><a >Stockholm</a></li>
-        <li><a >Oslo</a></li>
-        <li><a >Budapest</a></li>
+        <li><a href="#">Berlin</a></li>
+        <li><a href="#">Vienne</a></li>
+        <li><a href="#">Paris</a></li>
+        <li><a href="#">Madrid</a></li>
+        <li><a href="#">Rome</a></li>
+        <li><a href="#">Londres</a></li>
+        <li><a href="#">Lisbonne</a></li>
+        <li><a href="#">Prague</a></li>
+        <li><a href="#">Amsterdam</a></li>
+        <li><a href="#">Copenhague</a></li>
+        <li><a href="#">Dublin</a></li>
+        <li><a href="#">Athènes</a></li>
+        <li><a href="#">Sofia</a></li>
+        <li><a href="#">Varsovie</a></li>
+        <li><a href="#">Helsinki</a></li>
+        <li><a href="#">Stockholm</a></li>
+        <li><a href="#">Oslo</a></li>
+        <li><a href="#">Budapest</a></li>
     </ul>
 
 </div>
+</main>
+
+    </div>
+
+<script src="js/menu.js"></script>
+</body>
+</html>

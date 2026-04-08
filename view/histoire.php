@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madrid - Histoire</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+
+    <?php
+    require_once '../view/inc/entete.php';
+    ?>
+
+    <div class="conteneur">
+
+        <?php
+        require '../view/inc/menu.php';
+        ?>
+
 <div class="contenu-page">
 
     <h2 class="titre-page">Histoire</h2>
@@ -106,3 +127,10 @@
 
     <p>Depuis la fin du xxe siècle, Madrid s'est affirmée comme l'une des grandes capitales européennes tant sur le plan économique que culturel, avec un très grand dynamisme et une forte croissance.</p>
 </div>
+</main>
+
+    </div>
+
+<script src="js/menu.js"></script>
+</body>
+</html>
