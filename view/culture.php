@@ -1,3 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madrid - Culture</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+
+    <?php
+    require_once '../view/inc/entete.php';
+    ?>
+
+    <div class="conteneur">
+
+        <?php
+        require '../view/inc/menu.php';
+        ?>
+
+        
+    
+
 <div class="contenu-page">
 
     <h2 class="titre-page">Culture</h2>
@@ -60,4 +84,11 @@
 
         <p>Les armoiries de la ville, qui remontent au xiie siècle, montrent un ours brun avec un arbousier, une des légendes voulant que le nom originel de la cité soit Ursaria (le « pays des ours » en latin du fait de leur présence en nombre alors dans les forêts avoisinantes). Les sept étoiles présentes autour sur la partie bleue, qui représente le ciel symbolisent la Grande Ourse. Enfin, la couronne, dernier élément qui a été ajouté au blason en 1544, est le symbole de la monarchie.</p>
 
-</div>
+</div>  
+  </main>
+
+    </div>
+
+<script src="js/menu.js"></script>
+</body>
+</html>
