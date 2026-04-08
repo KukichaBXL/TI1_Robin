@@ -1,3 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madrid - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+
+    <?php
+    require_once '../view/inc/entete.php';
+    ?>
+
+    <div class="conteneur">
+
+        <?php
+        require '../view/inc/menu.php';
+        ?>
+
+        
 <div class="contenu-page">
 
     <h2 class="titre-page">Pour nous contacter</h2>
@@ -40,3 +62,10 @@
     </form>
 
 </div>
+   </main>
+
+    </div>
+
+<script src="js/menu.js"></script>
+</body>
+</html>
