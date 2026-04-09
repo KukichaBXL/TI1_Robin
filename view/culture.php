@@ -76,7 +76,7 @@
             <li>Église de San Antonio de la Florida (Coupole peinte par Goya)</li>
         </ul>
         <br>
-        <h3>Monuments</h3>
+         <div class="back-to-top"><h3>Monuments</h3><a href="#top"><button id="btnRetourHaut" title="Retour en haut">↑</button></a></div>
         <p>Vers le ixe siècle, les seigneurs musulmans de Madrid édifient une muraille défensive dont il subsiste quelques tronçons comme dans le parc Mohammed Ier. Ils font aussi creuser des canaux d'irrigation et de transport des eaux (qanats).</p>
 
         <p>Entre 1083 et 1085, la ville passe sous contrôle chrétien et voit apparaître ses premières églises. Bon nombre d'entre elles sont par la suite détruites ou reconstruites dans un style différent, à l'image des églises Saint-André et Saint-Nicolas-de-Bari. Au xve siècle, la tour et la maison des Luján sont édifiées sur l'actuelle place de la Bourgade (plaza de la Villa).</p>

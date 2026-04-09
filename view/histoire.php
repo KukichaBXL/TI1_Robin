@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/lightbox.css">
 </head>
-<body>
+<body id="top">
 
     <?php
     require_once '../view/inc/entete.php';
@@ -42,7 +42,7 @@
     <p>Les Cortes de Castille se tiennent pour la première fois à Madrid en 1309 sous le règne de Ferdinand IV. Elles ont de nouveau lieu en 1329, 1339, 1391, 1393, 1419 et deux fois en 1435. Après l'unification des royaumes d'Espagne sous une couronne commune, les Cortes sont convoquées à Madrid avec une plus grande fréquence.
     Au xve siècle, sous les règnes de Jean II et d'Isabelle la Catholique, de nouvelles règles d'urbanisme sont édictées et obligent, entre autres, Madrid à se doter de rues pavées.</p>
 
-    <h3>La maison de Habsbourg</h3>
+     <div class="back-to-top"><h3>La maison de Habsbourg</h3><a href="#top"><button id="btnRetourHaut" title="Retour en haut">↑</button></a></div>
 
     <p>Lors de la guerre des Communautés de Castille, menée par Juan de Zapata, Madrid rejoint le soulèvement contre Charles Quint et les révoltés prennent la forteresse de la ville le 31 août 1520. Cependant, après la défaite des comuneros à Villalar, la ville est assiégée et occupée par les troupes royales à la mi-mai 1521.</p>
 
@@ -76,7 +76,7 @@
 
     <p>Le roi Joseph lance des projets visant à réaménager et aérer le centre de la ville. Il projette en effet plusieurs places majeures comme celle d'Orient ou Sainte-Anne. Il fait également transférer les cimetières à l'extérieur de la ville. En 1812, il doit cependant fuir Madrid après la bataille de Majadahonda et les troupes françaises sont expulsées d'Espagne un an plus tard. Le 13 mai 1814, Ferdinand VII fait une entrée triomphale dans les rues de Madrid.</p>
 
-    <h3>Restauration des Bourbons</h3>
+     <div class="back-to-top"><h3>Restauration des Bourbons</h3><a href="#top"><button id="btnRetourHaut" title="Retour en haut">↑</button></a></div>
 
     <p>Les processus successifs de désamortissement modifient radicalement le système de propriété immobilière. Ils favorisent également la concentration des collections artistiques en un seul lieu (musée de la Trinité, futur musée du Prado, ouvert en 1819) ainsi que le rapprochement de l'université d'Alcalá de Henares, qui devient par la suite l'Université complutense.</p>
 
@@ -115,7 +115,7 @@
 
     <p>Le 20 décembre 1973, l'organisation séparatiste basque ETA assassine le président du Gouvernement, Luis Carrero Blanco, dans la rue Claudio Coello.</p>
 
-    <h3>Troisième restauration des Bourbons</h3>
+    <div class="back-to-top"><h3>Troisième restauration des Bourbons</h3><a href="#top"><button id="btnRetourHaut" title="Retour en haut">↑</button></a></div>
 
     <p>Deux ans plus tard, Francisco Franco meurt le 20 novembre 1975 des suites d'une grave maladie. Juan Carlos est proclamé roi d'Espagne, et le 27 décembre 1978 il signe la nouvelle Constitution faisant de l'Espagne une monarchie constitutionnelle. La Constitution entre en application deux jours plus tard.</p>
 
@@ -126,6 +126,7 @@
     <p>Le 11 mars 2004, la ville est frappée par des attentats islamistes qui causent la mort de 191 personnes.</p>
 
     <p>Depuis la fin du xxe siècle, Madrid s'est affirmée comme l'une des grandes capitales européennes tant sur le plan économique que culturel, avec un très grand dynamisme et une forte croissance.</p>
+    
 </div>
 </main>
 
