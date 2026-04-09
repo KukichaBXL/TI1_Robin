@@ -32,27 +32,27 @@
 
         <div class="form-ligne">
             <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" placeholder="Votre nom">
+            <input type="text" id="nom" name="nom">
         </div>
 
         <div class="form-ligne">
             <label for="prenom">Prénom :</label>
-            <input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+            <input type="text" id="prenom" name="prenom">
         </div>
 
         <div class="form-ligne">
             <label for="email">E-mail :</label>
-            <input type="email" id="email" name="email" placeholder="votre@email.com">
+            <input type="email" id="email" name="email">
         </div>
 
         <div class="form-ligne">
             <label for="sujet">Sujet :</label>
-            <input type="text" id="sujet" name="sujet" placeholder="Sujet de votre message">
+            <input type="text" id="sujet" name="sujet">
         </div>
 
         <div class="form-ligne">
             <label for="message">Message :</label>
-            <textarea id="message" name="message" placeholder="Votre message..."></textarea>
+            <textarea id="message" name="message"></textarea>
         </div>
 
         <div class="form-bouton">
