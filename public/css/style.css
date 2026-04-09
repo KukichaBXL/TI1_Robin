@@ -422,9 +422,6 @@ img {
   justify-content: space-between;
 }
 
-.back-to-top button {
-}
-
 #btnRetourHaut {
   margin-right: 15px;
   border-radius: 50%;
@@ -433,5 +430,4 @@ img {
   background-color: #a90331;
   color: white;
   font-size: 25px;
-  line-height: 1.8;
 }
