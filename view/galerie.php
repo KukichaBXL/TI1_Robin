@@ -92,6 +92,7 @@
     </div>
 
 <script src="js/lightbox-plus-jquery.js"></script>
+<script src="js/darkmode.js"></script>
 <script src="js/menu.js"></script>
 </body>
 </html>

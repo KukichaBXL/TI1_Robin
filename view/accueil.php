@@ -65,6 +65,7 @@
 
     </div>
 
+<script src="js/darkmode.js"></script>
 <script src="js/menu.js"></script>
 </body>
 </html>

@@ -470,3 +470,158 @@ img {
   color: white;
   font-size: 25px;
 }
+
+/* BOUTON DARK MODE */
+
+#dark-mode-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 200;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dark-mode-btn:hover {
+  background: rgba(169, 3, 49, 0.7);
+}
+
+.entete {
+  position: relative;
+}
+
+/* DARK MODE */
+
+body.dark {
+  background-color: #1c1c2e;
+  color: #e0e0e0;
+}
+
+body.dark .banniere::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+body.dark .titre-capitale {
+  background-color: #2e2e45;
+  color: #e0e0e0;
+  opacity: 0.9;
+  position: relative;
+  z-index: 1;
+}
+
+/* Navigation */
+body.dark .navigation {
+  background-color: #2a2a3d;
+}
+
+body.dark .nav-liste {
+  background-color: #2a2a3d;
+}
+
+body.dark .nav-lien {
+  background-color: #2a2a3d;
+  color: #e0e0e0;
+}
+
+body.dark .nav-lien:hover {
+  background-color: #a90331;
+  color: white;
+}
+
+body.dark .burger-btn {
+  background-color: #2a2a3d;
+  border-color: #a90331;
+}
+
+/* Contenu */
+body.dark .contenu-page {
+  background-color: #2a2a3d;
+  color: #e0e0e0;
+}
+
+body.dark .contenu-page p,
+body.dark .contenu-page h3,
+body.dark .contenu-page ul,
+body.dark .contenu-page ol {
+  color: #e0e0e0;
+}
+
+body.dark .titre-page {
+  background-color: #7a0224;
+  color: #f0d0d8;
+}
+
+/* Liens sommaire */
+body.dark .sommaire a {
+  color: #e06080;
+}
+
+body.dark .sommaire a:hover {
+  color: #ffffff;
+}
+
+body.dark .reference a {
+  color: #e06080;
+}
+
+body.dark .reference a:hover {
+  color: white;
+}
+
+/* Formulaire */
+body.dark .formulaire {
+  color: #e0e0e0;
+}
+
+body.dark .form-ligne input,
+body.dark .form-ligne textarea {
+  background-color: #3a3a52;
+  border-color: #666;
+  color: #e0e0e0;
+}
+
+body.dark .form-bouton button {
+  background-color: #7a0224;
+}
+
+body.dark .form-bouton button:hover {
+  background-color: #a90331;
+}
+
+/* Galerie */
+body.dark .galerie-image p {
+  color: #e0e0e0;
+}
+
+/* Liens page Liens */
+body.dark .link-liste a {
+  color: #e06080;
+}
+
+body.dark .link-liste a:hover {
+  color: white;
+}
+
+/* Bouton retour haut */
+body.dark #btnRetourHaut {
+  background-color: #7a0224;
+}
+
+/* Conteneur principal */
+body.dark .conteneur {
+  background-color: #1c1c2e;
+}
